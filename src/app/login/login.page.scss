@@ -1,0 +1,50 @@
+.bg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60%;
+    background: transparent linear-gradient(180deg, #9AD24B 0%, #37C34C 100%) 0% 0% no-repeat padding-box;
+}
+
+#wave {
+    position: relative;
+    height: 70px;
+    width: 600px;
+    background: #fff;
+    z-index: 1000;
+  }
+  
+  #wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    left: 0;
+    top: 27px;
+  }
+
+.logo{
+ margin-top: 60px;
+}
+
+.login{
+    margin-top: 20%;
+}
+
+button{
+  background: #77F23F 0% 0% no-repeat padding-box;
+  border-radius: 40px;
+  border-color: #77f23f;
+  color: #fff;
+  font-weight: 400;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  opacity: 1;
+  width: 60%;
+}

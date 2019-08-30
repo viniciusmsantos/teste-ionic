@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <ion-back-button class="float-left" defaultHref="/home"></ion-back-button>
+      <p class="text-center">Detalhes do evento</p>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 px-0">
+              <img class="mx-auto d-block" src="/assets/img/alok-1-760x500.png" alt="" />
+          </div>
+        </div>  
+      </div>
+  
+  <div class="container">
+    <h3 class="text-center">Alok</h3>
+    <div class="row">
+      <p class="col-6"><ion-icon name="pin"></ion-icon> Anexo bar</p>
+      <p class="col-6"><ion-icon name="calendar"></ion-icon> 20 de maio</p>
+    </div>
+    <h5>Descrição</h5>
+    <p>Nulla ornare semper blandit. Vivamus sagittis, ligula eget interdum tempus, nisl nisl tincidunt ipsum, in venenatis.</p>
+    <h6>Tipo de convite</h6>
+    <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action active">
+          Ingressos
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">
+         <p>Ingresso Pista</p>
+         <p>R$80,00</p>
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">
+            <p>Ingresso Camarote</p>
+            <p>R$100,00</p>
+        </button>
+      </div>
+      <button routerLink="/compra-finalizada" class="custom-button mx-auto d-block">Comprar Convite</button>
+  </div>
+</ion-content>

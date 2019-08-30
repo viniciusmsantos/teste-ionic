@@ -1,0 +1,29 @@
+.qr-code{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30%;
+    background: rgb(53, 194, 75);
+    border-radius: 25px 25px 0px 0px;
+    color: #fff;
+}
+
+.qr-img{
+    max-width: 50%;
+}
+
+.icons{
+    color: #37C34C;
+}
+
+.icon{
+    margin-top: 8%;
+}
+
+ion-icon{
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #37C34C;
+  padding: 0.5em 0.6em;
+}
